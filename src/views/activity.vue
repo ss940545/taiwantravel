@@ -1,5 +1,5 @@
 <template>
-  <h1>attractions page</h1>
+  <h1>activity page</h1>
 </template>
 
 <script>

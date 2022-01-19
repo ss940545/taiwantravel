@@ -1,5 +1,7 @@
 <template>
-  <h1>LOGO PAGE</h1>
+  <router-link to="/" :class="[logo, { logo: true}]">
+    taiwan travel
+  </router-link>
 </template>
 
 <script>

@@ -1,5 +1,5 @@
 <template>
-  <h1>attractions page</h1>
+  <h1>Restaurant page</h1>
 </template>
 
 <script>

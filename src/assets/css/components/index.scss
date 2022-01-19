@@ -1,0 +1,33 @@
+.home-container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.intro {
+  text-align: left;
+  // flex-direction: row;
+  // justify-content: space-between;
+  // align-items: flex-start;
+  padding: 80px 15px;
+}
+  h1 {
+    font-size: 48px;
+    font-weight: 300;
+    color: #1e1e1e;
+    margin-bottom: 16px;
+    strong {
+      border-bottom: 2px solid #e0da48;
+      margin-left: -8px;
+    }
+  }
+// @media (max-width: 1200px) {
+//   .intro{
+//     max-width: 920px;
+//     margin-left: auto;
+//     margin-right: auto;
+//     padding: 6px 15px;
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//   }
+// }
