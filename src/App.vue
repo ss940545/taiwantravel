@@ -1,5 +1,6 @@
 <script>
 import '@/assets/css/base/reset.scss'
+import { useRouter } from "vue-router";
 import Header from "@/components/global/header/index"
 export default {
   components:{

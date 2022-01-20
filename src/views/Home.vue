@@ -1,5 +1,6 @@
 <script>
 import '@/assets/css/components/index.scss'
+import { useRouter } from "vue-router";
 import Intro from "@/components/intro/index"
 
 export default {
