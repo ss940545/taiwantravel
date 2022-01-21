@@ -8,19 +8,18 @@ export default {
     
   },
   setup(){
+    const router = useRouter();
     const selectValue = ref('attractions');
-    const HandleSearch = computed(()=>{
-      this.router.push({
-          path: '/attractions',
-        })
+    const handleSearch = (()=>{
+      router.push({
+        path: `/${selectValue.value}`,
+      })
     })
-    // onMounted(()=>{
-    //   HandleSearch= ()=>{
-    //     console.log('val')
-    //   }
-    // })
+    onMounted(()=>{
+     
+    })
     return {
-      HandleSearch,
+      handleSearch,
       selectValue,
     }
   },
@@ -47,7 +46,7 @@ export default {
         <option value="restaurant">品嚐美食</option>
       </select>
       <input type="text" placeholder="你想去哪裡？請輸入關鍵字">
-      <a href="javascript:;" @click.prevent="HandleSearch"> 
+      <a href="javascript:;" @click.prevent="handleSearch"> 
         search
       </a>
     </div>
