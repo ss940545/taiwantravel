@@ -6,13 +6,16 @@ import { useRouter } from "vue-router";
 import {ref, onMounted, computed} from "vue"
 import axios from "axios";
 import Intro from "@/components/intro/index"
+import NearlyActivity from "@/components/nearlyActivity"
 import Swiper from "@/components/swiper"
+
 
 export default {
   name: 'Home',
   components: {
     Intro,
     Swiper,
+    NearlyActivity
   },
   setup(){
     const store  = useStore();
@@ -32,6 +35,9 @@ export default {
 <div  class="home-container">
   <Intro />
   <Swiper />
+
+  <!-- 近期活動 -->
+  <NearlyActivity />
 </div>
 </template>
 

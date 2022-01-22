@@ -1,5 +1,5 @@
 export default {
-  setActivityArr(state, payload) {
-    state.setActivityArr = payload
+  getActivityApi(state, payload) {
+    state.getActivityArr = payload
   }  
 }

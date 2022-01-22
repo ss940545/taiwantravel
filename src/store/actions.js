@@ -8,7 +8,7 @@ export default {
     // }
     })
     .then((res)=>{
-    commit('setActivityArr', res.data)
+    commit('getActivityApi', res.data)
     })
   } 
 }
